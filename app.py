@@ -4,7 +4,7 @@ from flask_cors import CORS
 from google import genai
 
 # --- Configuration ---
-API_KEY = "AIzaSyBMWuk9VD1AEVdEhCtiKc_63oPCFYPqxnQ"
+API_KEY = "your_api_key_here"
 MODEL_NAME = "gemini-2.5-flash"
 # ---------------------
 
@@ -81,3 +81,4 @@ def chat():
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
+
