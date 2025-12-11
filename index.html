@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple AI Chatbot</title>
+    <style>
+        /* Basic Styling for the Chatbot */
+        body { font-family: sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        #chatbot-container { width: 100%; max-width: 400px; height: 600px; background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); display: flex; flex-direction: column; overflow: hidden; }
+        #chatbox { flex-grow: 1; padding: 20px; overflow-y: auto; border-bottom: 1px solid #eee; scroll-behavior: smooth; }
+        .message { margin-bottom: 15px; padding: 10px 15px; border-radius: 18px; line-height: 1.5; max-width: 80%; }
+        .user { background-color: #007bff; color: white; margin-left: auto; border-bottom-right-radius: 0; }
+        .bot { background-color: #e6e6e6; color: #333; margin-right: auto; border-bottom-left-radius: 0; }
+        .thinking { background-color: #fff3cd; color: #856404; font-style: italic; }
+        #input-area { display: flex; padding: 15px; background: #f9f9f9; }
+        #user-input { flex-grow: 1; padding: 10px; border: 1px solid #ddd; border-radius: 20px; margin-right: 10px; font-size: 16px; }
+        #send-button { background-color: #28a745; color: white; border: none; padding: 10px 15px; border-radius: 20px; cursor: pointer; transition: background-color 0.2s; }
+        #send-button:hover { background-color: #218838; }
+    </style>
+</head>
+<body>
+
+<div id="chatbot-container">
+    <div id="chatbox">
+        <div class="message bot">Hello! I'm a simple AI assistant powered by Gemini. Ask me anything!</div>
+    </div>
+    <div id="input-area">
+        <input type="text" id="user-input" placeholder="Type your message..." onkeydown="handleKey(event)">
+        <button id="send-button" onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<script>
+    // Global variable to store the session ID for continuity
+    let currentSessionId = localStorage.getItem('chatbotSessionId') || generateSessionId();
+
+    function generateSessionId() {
+        const newId = 'session_' + Math.random().toString(36).substring(2, 9) + Date.now();
+        localStorage.setItem('chatbotSessionId', newId);
+        return newId;
+    }
+
+    function handleKey(event) {
+        if (event.key === 'Enter') {
+            sendMessage();
+        }
+    }
+
+    function appendMessage(text, sender, isThinking = false) {
+        const chatbox = document.getElementById('chatbox');
+        const messageElement = document.createElement('div');
+        messageElement.className = `message ${sender} ${isThinking ? 'thinking' : ''}`;
+        // Use innerHTML to allow basic formatting (like line breaks) if the AI sends it
+        messageElement.innerHTML = text.replace(/\n/g, '<br>'); 
+        chatbox.appendChild(messageElement);
+        chatbox.scrollTop = chatbox.scrollHeight; // Auto-scroll to the latest message
+        return messageElement;
+    }
+
+    async function sendMessage() {
+        const userInput = document.getElementById('user-input');
+        const message = userInput.value.trim();
+        if (message === "") return;
+
+        // 1. Display user message and clear input
+        appendMessage(message, 'user');
+        userInput.value = '';
+        userInput.disabled = true;
+        document.getElementById('send-button').disabled = true;
+
+
+        // 2. Display "Thinking..." message
+        const thinkingMessageElement = appendMessage('Thinking...', 'bot', true);
+
+        try {
+            // 3. Send message to the secure Python backend
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    message: message,
+                    session_id: currentSessionId // Send the session ID for history
+                })
+            });
+
+            if (!response.ok) {
+                throw new Error(`Server returned status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            
+            // 4. Update the "Thinking" message with the final response
+            thinkingMessageElement.className = 'message bot'; // Remove the 'thinking' class
+            thinkingMessageElement.innerHTML = data.response.replace(/\n/g, '<br>');
+            
+        } catch (error) {
+            console.error('Chat error:', error);
+            thinkingMessageElement.className = 'message bot error';
+            thinkingMessageElement.innerHTML = 'Sorry, an error occurred communicating with the AI.';
+        } finally {
+            // Re-enable input and button
+            userInput.disabled = false;
+            document.getElementById('send-button').disabled = false;
+            userInput.focus(); // Focus back to the input field
+        }
+    }
+</script>
+
+</body>
+</html>
