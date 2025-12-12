@@ -5,25 +5,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple AI Chatbot</title>
     <style>
-        /* Basic Styling for the Chatbot */
-        body { font-family: sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
-        #chatbot-container { width: 100%; max-width: 400px; height: 600px; background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); display: flex; flex-direction: column; overflow: hidden; }
-        #chatbox { flex-grow: 1; padding: 20px; overflow-y: auto; border-bottom: 1px solid #eee; scroll-behavior: smooth; }
-        .message { margin-bottom: 15px; padding: 10px 15px; border-radius: 18px; line-height: 1.5; max-width: 80%; }
-        .user { background-color: #007bff; color: white; margin-left: auto; border-bottom-right-radius: 0; }
-        .bot { background-color: #e6e6e6; color: #333; margin-right: auto; border-bottom-left-radius: 0; }
-        .thinking { background-color: #fff3cd; color: #856404; font-style: italic; }
-        #input-area { display: flex; padding: 15px; background: #f9f9f9; }
-        #user-input { flex-grow: 1; padding: 10px; border: 1px solid #ddd; border-radius: 20px; margin-right: 10px; font-size: 16px; }
-        #send-button { background-color: #28a745; color: white; border: none; padding: 10px 15px; border-radius: 20px; cursor: pointer; transition: background-color 0.2s; }
-        #send-button:hover { background-color: #218838; }
+/* ===== GLOBAL ===== */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #dbefff, #f3f9ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ===== CHATBOT CONTAINER ===== */
+#chatbot-container {
+    width: 100%;
+    max-width: 420px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(15px);
+    border-radius: 22px;
+    box-shadow: 0 10px 40px rgba(0, 140, 255, 0.15);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* ===== CHAT AREA ===== */
+#chatbox {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+/* ===== MESSAGE STYLES ===== */
+.message {
+    margin-bottom: 16px;
+    padding: 12px 18px;
+    border-radius: 22px;
+    line-height: 1.5;
+    max-width: 78%;
+    font-size: 15px;
+    animation: fadeUp 0.25s ease;
+}
+
+/* USER MESSAGE */
+.user {
+    background: linear-gradient(135deg, #4dabff, #1a8cff);
+    color: white;
+    margin-left: auto;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 4px 15px rgba(26, 140, 255, 0.3);
+}
+
+/* BOT MESSAGE */
+.bot {
+    background: #edf7ff;
+    color: #114a7e;
+    margin-right: auto;
+    border-bottom-left-radius: 0;
+    border: 1px solid #d5ecff;
+    box-shadow: 0 4px 15px rgba(0, 140, 255, 0.1);
+}
+
+/* BOT "thinking…" */
+.thinking {
+    background: #fff2c2;
+    color: #856404;
+    font-style: italic;
+}
+
+/* ===== INPUT AREA ===== */
+#input-area {
+    display: flex;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(0, 123, 255, 0.1);
+}
+
+/* TEXT FIELD */
+#user-input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #c5e4ff;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.25s;
+    background: white;
+}
+
+#user-input:focus {
+    border-color: #63b3ff;
+    box-shadow: 0 0 8px rgba(99, 179, 255, 0.5);
+}
+
+/* SEND BUTTON */
+#send-button {
+    background: linear-gradient(135deg, #4da3ff, #1a83ff);
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.25s;
+    font-size: 15px;
+    box-shadow: 0 4px 15px rgba(0, 140, 255, 0.3);
+}
+
+#send-button:hover {
+    background: linear-gradient(135deg, #1a83ff, #005fcc);
+    box-shadow: 0 6px 20px rgba(0, 140, 255, 0.35);
+}
+
+/* ===== SCROLLBAR ===== */
+#chatbox::-webkit-scrollbar {
+    width: 6px;
+}
+#chatbox::-webkit-scrollbar-thumb {
+    background: #b7d9ff;
+    border-radius: 10px;
+}
+#chatbox::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
     </style>
 </head>
 <body>
 
 <div id="chatbot-container">
     <div id="chatbox">
-        <div class="message bot">Hello! I'm a simple AI assistant powered by Gemini. Ask me anything!</div>
+        <div class="message bot">Hello! I'm a SRNMC AI Assistant. Ask me anything about our college!</div>
     </div>
     <div id="input-area">
         <input type="text" id="user-input" placeholder="Type your message..." onkeydown="handleKey(event)">

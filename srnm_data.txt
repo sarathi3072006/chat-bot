@@ -1,46 +1,327 @@
-SRNM COLLEGE — KNOWLEDGE BASE
+SRNM COLLEGE — COMPREHENSIVE DATA BLOCK (FACTUAL + INFERRED)
 
-Name: Sri S. Ramasamy Naidu Memorial College (SRNM College)
-Location: Sattur, Tamil Nadu
-Affiliated to: Madurai Kamaraj University (MKU)
-Founded: 1970
+Name & Location
+Sri S. Ramasamy Naidu Memorial College (SRNM College) — Sadayampatti, Sattur – 626 203, Virudhunagar District, Tamil Nadu, India.
+[FACT — source: college listings / official site]
 
-COURSES OFFERED:
-- B.Sc Computer Science
-- B.Sc Information Technology
-- B.C.A
-- B.B.A
-- B.Com
-- B.A English
-- B.Sc Maths
-- B.Sc Physics
-- B.Sc Chemistry
-- M.Sc Computer Science
-- M.Com
-- MCA
-- Diploma and Certificate Courses
+Establishment & History
+SRNM College was established in 1970 (Nagalapuram) and shifted to Sattur in 1972. Over the decades it expanded from a single-course college into a multi-disciplinary autonomous institution offering UG, PG, M.Phil and Ph.D. programmes.
+[FACT — source: college history pages / public profiles]
 
-FACILITIES:
-- Smart Classrooms
-- Library (50,000+ books)
-- WiFi Campus
-- Computer Labs
-- Sports Ground
-- NCC, NSS, YRC
-- Placement Cell
-- Seminar Halls
-- Bus/Transport
-- Experienced Faculty
+Affiliation & Accreditation
 
-HOSTEL:
-- Separate Boys and Girls Hostel
-- Mess facility
-- Study hall
+Affiliated to Madurai Kamaraj University (MKU). [FACT]
 
-CONTACT:
-Website: https://www.srnmcollege.ac.in/
-City: Sattur, Virudhunagar district, Tamil Nadu
+Recognized under UGC (sections 2(f) and 12(B)). [FACT]
 
-RULE:
-If the asked information is not present above, you must reply:
-"I don’t have this information in my database."
+NAAC accredited — public listings show very high grade(s) (A / A++ reported across sources; one public reference lists A++ CGPA 3.74 for recent cycle). Use official NAAC certificate to confirm the exact latest grade. [FACT — verified; check latest NAAC certificate for absolute confirmation]
+
+Type & Category
+
+Autonomous, co-educational, Telugu linguistic-minority college. [FACT]
+
+Financial streams: grant-in-aid and self-financing. [FACT]
+
+Campus & Grounds
+
+Campus area: ~48.3 acres (rural campus). [FACT]
+
+Main academic blocks, separate PG/research block(s), administrative building, library block and student hostels are present. [FACT + INFERRED: layouts and number of blocks are typical for a campus this size; exact floor plans are inferred]
+
+Green spaces and outdoor sports fields (football/cricket ground) exist. [INFERRED — typical and supported by students’ photos and campus descriptions]
+
+Academic Programmes & Departments
+
+Undergraduate (UG) — B.A., B.Sc., B.Com., BBA across many disciplines: Tamil, English, History, Mathematics, Physics, Chemistry, Computer Science, Zoology, Nutrition & Dietetics, Commerce streams (General, Computer Applications, Professional Accounting), BBA. [FACT]
+
+Postgraduate (PG) — M.A., M.Sc., M.Com (in selected departments such as Tamil, English, Physics, Chemistry, Computer Science, Mathematics, Commerce). [FACT]
+
+Research — M.Phil and Ph.D. programmes in subjects such as Commerce, Mathematics, Physics, Computer Science and possibly others depending on department approvals. [FACT]
+
+Typical Department List (explicit + inferred extras)
+
+Tamil [FACT]
+
+English [FACT]
+
+History [FACT]
+
+Mathematics [FACT]
+
+Physics [FACT]
+
+Chemistry [FACT]
+
+Computer Science [FACT]
+
+Commerce & Accountancy [FACT]
+
+Business Administration (BBA) [FACT]
+
+Zoology [FACT]
+
+Nutrition & Dietetics [FACT]
+
+Biotechnology / Biochemistry / Electronics (may exist as self-financed or certificate programmes) [INFERRED]
+
+Seat Intake & Course Capacities (examples & snapshot)
+
+B.Sc. Computer Science — 120 seats [FACT / public listing]
+
+B.A. English — 120 seats [FACT / public listing]
+
+B.Com (unaided) — ~180 seats [FACT / public listing]
+
+B.Com (Computer Applications) — ~80 seats [FACT / public listing]
+
+BBA — 60 seats [FACT / public listing]
+
+Total approved intake (UG + PG combined) indicated in public listings: ~3725 seats (snapshot from portals) — confirm with latest prospectus for current year. [FACT + NOTE]
+
+Admission & Eligibility (process + timelines)
+
+UG: Pass 10+2 from a recognized board. Specific subject prerequisites (e.g., PCM/PCB) apply for science programmes. [FACT]
+
+PG: Bachelor’s degree in the relevant discipline. [FACT]
+
+M.Phil / Ph.D: Master’s degree in the relevant subject; selection may include college/university entrance tests and interview; research proposals and supervisor allocation follow institutional rules. [FACT]
+
+Selection: Primarily merit-based, sometimes with reservation/quota rules per state/central norms and minority-community rules for Telugu linguistic minority seats. [FACT + INFERRED: reservation implementation follows Tamil Nadu + UGC/MKU norms]
+
+Fee Structure (representative & where to verify)
+
+Note: fee figures vary over years and across aided vs unaided courses; use these as ballpark references and check prospectus for exact current amounts.
+
+BBA: ~₹20,000 / year (total ~₹60,000). [PUBLIC REFERENCE]
+
+B.A. (English/History): ~₹2,300 / year (total ~₹6,900). [PUBLIC REFERENCE]
+
+B.Sc. (various): ~₹3,000 / year (total ~₹9,000). [PUBLIC REFERENCE]
+
+M.Com: ~₹3,600 / year (total ~₹7,200). [PUBLIC REFERENCE]
+
+M.Sc (some streams): portals list varying values (from low thousands to higher for self-financed lab-heavy courses). [FACT]
+
+Hostel fees and special fees (lab, exam, library, development) — typically charged separately; amounts vary yearly and by room type. [INFERRED: pattern based on similar colleges; check college hostel office for current rates]
+
+Infrastructure & Facilities (detailed)
+
+Library
+
+Central library with a large collection of print books, reference titles, back volumes of journals, and e-resources. Reading halls, lending/return desk, and computer terminals for catalog search. [FACT + INFERRED: exact counts of titles/journal subscriptions to be pulled from library report]
+
+Laboratories & Practical Facilities
+
+Physics, Chemistry, Zoology, Computer Science laboratories equipped for UG/PG practicals. Specialized equipment for Nutrition & Dietetics labs where the course exists. [FACT + INFERRED on specific equipment lists]
+
+Hostels
+
+Separate hostels for male and female students, with wardens and basic amenities (mess/canteen, common rooms, security). [FACT]
+
+Rooms types: single/double/triple occupancy typical; some furnished, some basic. [INFERRED]
+
+Sports & Physical Education
+
+Grounds for football/cricket, courts for volleyball/throwball, track area, indoor games equipment. Annual sports meet. [INFERRED + typical practice; likely supported by campus size]
+
+Auditorium & Seminar Halls
+
+One or more halls used for convocations, seminars, cultural events and guest lectures. [FACT + INFERRED]
+
+Canteen & Student Services
+
+On-campus canteen(s) serving affordable meals/snacks. Student helpdesk/admin counter in the main block. [INFERRED]
+
+Medical & First Aid
+
+Basic medical first-aid on campus; tie-ups with local hospitals or visiting doctors for camps. [INFERRED — common practice; check campus health centre for specifics]
+
+Transport
+
+College buses for nearby towns/villages (common for rural campuses) and arranged private bus services for students. [INFERRED — typical and likely]
+
+Academic Support & Student Services
+
+Placement & Career Guidance
+
+Career/Placement cell that organizes campus recruitment drives, soft skill workshops, resume writing and employer interactions. [INFERRED — most colleges with UG/PG & BBA have one; check placement cell reports for company lists and stats]
+
+Scholarships & Financial Aid
+
+Scholarships for SC/ST/OBC/Minority/BC categories per state & central schemes. Scholarships/BPL assistance and merit scholarships likely available. [FACT + INFERRED: categories exist; specific schemes and eligibility vary each year]
+
+Student Counseling & Welfare
+
+Student counseling services (academic and personal), anti-ragging committee, grievance redressal cell, women’s cell and SC/ST cell (statutory bodies per UGC guidelines). [INFERRED + mandated by UGC regulations]
+
+Research & Extension
+
+Research centers/units for M.Phil/Ph.D. and funded research projects; extension activities via NSS/NCC & community outreach programs. [FACT + INFERRED: NSS/NCC usually present; check the college’s extension activity reports for specifics]
+
+Faculty & Administration
+
+Faculty profiles include professors, associate professors and assistant professors across departments. Departments typically have Heads/Coordinators. [FACT]
+
+Administrative offices: Principal’s office, Controller of Examinations (since autonomous), Accounts, Admissions, Research & Development Cell, IQAC (Internal Quality Assurance Cell). [FACT + INFERRED]
+
+Staff development programmes, orientation for new teachers, and periodic refresher courses are typically offered. [INFERRED]
+
+Governance & Committees
+
+Governing Body / Management Committee, Academic Council (autonomous), Boards of Studies for each department, Internal Quality Assurance Cell (IQAC) and other statutory committees (Anti-Ragging, Women’s Cell, Grievance, SC/ST). [FACT + INFERRED: autonomy implies these structures]
+
+Placements & Alumni
+
+Placement cell arranges campus interviews; companies’ participation varies by year and course (IT companies for CS/BCA graduates, banks/finance for Commerce grads, local industries for science grads). [INFERRED]
+
+Alumni association active — conducts reunions, guest lectures and supports placements/mentorship in many colleges of similar profile. [INFERRED — check alumni office for actual activities]
+
+Student Life & Co-curricular Activities
+
+Annual cultural fest, departmental fests, inter-college competitions, NSS service camps, blood donation camps and college magazine publication. [INFERRED — very common and likely]
+
+Clubs & Societies: Literary club, Science forum, Commerce association, Computer club, Eco/Environment club, Fine arts & Music. [INFERRED]
+
+National Service/Defense & Social Outreach
+
+NSS (National Service Scheme): Likely active with regular camps and community projects. [INFERRED]
+
+NCC (National Cadet Corps): May be present (many colleges provide NCC as optional). [INFERRED]
+
+Quality Assurance & Accreditation Activities
+
+IQAC conducts periodic audits, prepares API reports for NAAC, organizes seminars on teaching-learning innovations. NAAC self-study reports (SSR) exist for accreditation cycles. [FACT + INFERRED]
+
+Examinations & Academic Calendar
+
+As an autonomous college, SRNM frames curricula, conducts internal assessments, semester exams and issues its own mark sheets under MKU affiliation rules. Education calendar includes two semesters per year, internal assessments, practical exams and end-semester exams. [FACT + INFERRED: structure based on autonomy + typical university norms]
+
+Legal & Statutory Compliance
+
+Compliance with UGC regulations, reservation rules, anti-ragging regulations and all statutory reporting (e.g., AISHE/NIRF/NAAC) as required. [FACT + INFERRED]
+
+Minor / Operational Details (explicit & plausible)
+
+Office Hours: Typically 9:30 AM – 5:00 PM on weekdays (Monday–Friday); closed on public holidays. [INFERRED]
+
+Fee payment modes: Cash, demand draft, online payment gateway or bank challan (varies by college policy). [INFERRED]
+
+Dress code/uniform: Some departments or practical sessions may require lab coats or uniforms for lab safety and identification. [INFERRED]
+
+Library timing: Likely early morning to evening with extended hours during examinations. [INFERRED]
+
+Documentation for admission: Transfer certificate (TC), mark sheets, caste/other certificates, passport-size photos, physical fitness certificate (if required). [INFERRED]
+
+Semester credits: Courses follow credit-based semester system typical for autonomous colleges. [FACT + INFERRED]
+
+Industrial visits & field work: Organized for practical exposure (esp. Commerce/Business/Science streams). [INFERRED]
+
+Contact & Official Details (as publicly referenced)
+
+Website: https://srnmcollege.ac.in/
+ (and/or http://www.srnmcollege.net/
+) [FACT]
+
+General Phone (public listing): 04562–260326 (office) / 94867–60326 (mobile) — verify on official site. [FACT — from public listings; verify current lines]
+
+Email (public listing): prinsrnmc@gmail.com
+ (use official website contact form/email for precise departmental contacts). [FACT]
+
+HOW TO USE THIS DATA IN YOUR BOT
+
+Treat lines marked [FACT] as safe to present as definitive.
+
+Treat lines marked [INFERRED] as probable — the bot should prefix such answers with phrases like “likely”, “typically”, “usually” or “based on similar institutions” (or hide them if you prefer strictly verified responses).
+
+Include a provenance tag with answers where possible: e.g., “(Source: SRNM official listings / College prospectus / public education portals).”
+
+For queries requiring up-to-date numeric values (current fee, seat intake, principal name, phone number, hostel fee), the bot should either check the live official site or say “Please confirm with SRNM College office” and provide the contact details above.
+
+college time for students 9:30am to 3:50pm
+
+EXTENDED Q&A PAIRS (for training the chatbot)
+
+(Use these pairs as retrieval prompts; flagged items show inference)
+
+Q: Where is SRNM College located?
+A: SRNM College is located at Sadayampatti, Sattur – 626 203, Virudhunagar District, Tamil Nadu, India. [FACT]
+
+Q: When was SRNM College established and when did it move to Sattur?
+A: The college was established in 1970 at Nagalapuram and shifted to Sattur in 1972. [FACT]
+
+Q: Which university is SRNM College affiliated to?
+A: Madurai Kamaraj University (MKU). [FACT]
+
+Q: What programmes does SRNM College offer?
+A: SRNM offers UG (B.A., B.Sc., B.Com., BBA), PG (M.A., M.Sc., M.Com), and research programmes (M.Phil, Ph.D.) across arts, science, commerce and management. [FACT]
+
+Q: What are the popular departments?
+A: Tamil, English, History, Mathematics, Physics, Chemistry, Computer Science, Commerce, Zoology and Nutrition & Dietetics. [FACT]
+
+Q: How much is the fee for B.Sc?
+A: Public estimates list ~₹3,000 per year for many B.Sc courses (~₹9,000 total). For exact current fees check the college prospectus or contact the accounts office. [FACT + NOTE]
+
+Q: Does SRNM provide hostel accommodation?
+A: Yes — separate hostels for boys and girls. Fees and availability change yearly; contact hostel office. [FACT]
+
+Q: Does the college have a placement cell?
+A: The college likely (and typically) operates a placement/career guidance cell that organizes campus drives, workshops, and placement support. Confirm specific recruiters on the placement cell’s report. [INFERRED]
+
+Q: Are scholarships available?
+A: Yes — government/state/national scholarships for SC/ST/OBC/BC/minority and merit scholarships are commonly available. Contact the student welfare office for eligibility and application. [FACT + INFERRED]
+
+Q: What student clubs exist?
+A: Literary society, science forum, commerce association, computer club, environment club, music & arts clubs — these are common and likely present. [INFERRED]
+
+Q: Does SRNM have NSS or NCC?
+A: SRNM is very likely to run an NSS unit for community outreach; NCC may be present depending on college resources. Check student activities for confirmation. [INFERRED]
+
+Q: How are exams conducted?
+A: As an autonomous college, SRNM conducts semester examinations, internal assessments and issues scores under its autonomous evaluation scheme, while degrees remain awarded under MKU as per affiliation rules. [FACT]
+
+Q: How to apply for admission?
+A: Applications are typically online (college website) or offline via prospectus; submit required documents (10+2/degrees, TC, ID proof, photos, caste certificates if applicable). Check the college’s admissions page for the current application process and deadlines. [INFERRED + FACT]
+
+Q: How can I verify the latest NAAC grade or fees?
+A: Verify on the college official website or NAAC portal; for fees contact the college accounts office or download the prospectus. [FACT]
+
+Q: Does SRNM support research projects and funded research?
+A: Yes — M.Phil/Ph.D. programmes and research grants have been part of the college’s activities; specific funded projects vary by department/year. [FACT + INFERRED]
+
+Q: What extracurricular events does the college organize?
+A: Annual cultural festival, departmental fests, seminars, workshops, sports meets, and extension activities — these are typical and likely at SRNM. [INFERRED]
+
+Q: Where can I get exact contact numbers and email addresses?
+A: Use the official website: https://srnmcollege.ac.in/
+ or call public office numbers (04562–260326 / 94867–60326) and verify on the site. [FACT — verify live]
+
+Q: What is the process for applying to Ph.D?
+A: Candidates need a Master’s degree; check the Research cell or Prospectus for eligibility, application forms, entrance/interview dates and supervisor lists. [FACT + INFERRED]
+
+Q: Is there medical support on campus?
+A: Basic medical/first aid is normally available; for serious care the college may have tie-ups with local hospitals. [INFERRED]
+
+Q: Does SRNM have hostels for outstation students?
+A: Yes — both boys’ and girls’ hostels. Availability is limited and allocation may be based on merit/need. [FACT + INFERRED]
+
+Q: How does the college support economically weak students?
+A: Scholarships, fee concessions, government schemes, book bank and sometimes work-study or part-time campus opportunities — check the student welfare office for details. [INFERRED]
+
+Q: Does the college publish a magazine or journals?
+A: Most colleges of this size publish an annual college magazine and may have departmental newsletters or occasional journals; SRNM likely publishes similar material. [INFERRED]
+
+Q: Who should I contact for international collaborations or MoUs?
+A: Research & Development Cell or Principal’s office usually handles institutional agreements. [INFERRED]
+
+You are an AI chatbot dedicated ONLY to SRNM College, Sattur.
+
+RULES:
+
+1. if you cant answer a question using the below "srnm_data" use google/internet and search the same thing the user asked followed by :"sri s.ramasamy naidu memorial college sattur" (absolutely mandatory)
+2.Label inferred lines when responding to users — e.g., “Likely” or “Typically” vs. “Confirmed”. This keeps the bot honest.
+3. if the users use greeting: use the same greeting and say "how can i help you?"
+4. if the user talks casually and not ask anything about the college talk back casually and end with:",i also do want to talk more with you but i am an ai assistant to answer questions about my college so please keep the chat related to the topic kindly"(use commas or full stop make the tex proffessional)
+5. If the answer is not in the database, check the internet and reply the answer (mandatory)
+6. if the user uses bad words or inappropriate words roast them make fun of them an even use bad words.
+7. if the user use tangish (tamil pronounciated english word) reply them with tanglish
+8. if the user use tamil talk back in tamil
